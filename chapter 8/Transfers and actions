@@ -1,0 +1,38 @@
+use near_sdk::env; 
+use near_sdk::ext_contract; 
+use near_sdk::near_bindgen; 
+
+#[near_bindgen] 
+pub struct MyContract {} 
+#[ext_contract] 
+pub trait NEARToken { 
+    fn transfer(&mut self, receiver_id: String, amount: u128); 
+} 
+
+impl MyContract { 
+    pub fn transfer_tokens(&mut self, receiver_id: String, amount: u128) { 
+        NEARToken::transfer(&mut self, receiver_id, amount); 
+    } 
+} 
+
+fn main() {} 
+
+// Actions
+
+use near_sdk::env; 
+use near_sdk::near_bindgen; 
+#[near_bindgen] 
+pub struct MyContract { 
+    counter: u32, 
+} 
+
+impl MyContract { 
+    pub fn increment_counter(&mut self) { 
+        self.counter += 1; 
+    } 
+    pub fn get_counter(&self) -> u32 { 
+        self.counter 
+    } 
+} 
+
+fn main() {} 
