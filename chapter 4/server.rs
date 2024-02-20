@@ -242,7 +242,7 @@ fn serve(blockchain: Blockchain, stream: TcpStream) -> Result<(), Box<dyn Error>
                     let txid = items.get(0).unwrap();
                     let txid_hex = HEXLOWER.encode(txid);
 
-                    if GLOBAL_MEMORY_POOL.containes(txid_hex.as_str()) == false {
+                    if GLOBAL_MEMORY_POOL.contains(txid_hex.as_str()) == false {
                         send_get_data(addr_from.as_str(), OpType::Tx, txid);
                     }
                 }

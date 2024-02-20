@@ -15,7 +15,7 @@ impl MemoryPool {
         }
     }
 
-    pub fn containes(&self, txid_hex: &str) -> bool {
+    pub fn contains(&self, txid_hex: &str) -> bool {
         self.inner.read().unwrap().contains_key(txid_hex)
     }
 
