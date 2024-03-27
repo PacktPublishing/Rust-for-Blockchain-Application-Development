@@ -1,0 +1,46 @@
+# Compiled files
+/target/
+**/*.rs.bk
+
+# Generated files
+/neardev/
+/out/
+
+# Dependency directories
+**/node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+/.idea/
+.vscode/
+*.swp
+*.swo
+*.sln
+*.suo
+*.cache
+*.csproj
+*.user
+*.userprefs
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Near CLI history
+.near_history
