@@ -9,7 +9,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 near-sdk = "4.1.1"
-borsh = "0.9"
+borsh = "1.4"
 uint = { version = "0.9.3", default-features = false }
 
 [patch.crates-io]
