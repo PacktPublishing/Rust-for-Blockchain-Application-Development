@@ -51,7 +51,7 @@ With the following software and hardware list you can run all code files present
 * Securing Blockchain Networks like Ethereum and Hyperledger Fabric [[Packt]](https://www.packtpub.com/product/securing-blockchain-networks-like-ethereum-and-hyperledger-fabric/9781838646486) [[Amazon]](https://www.amazon.com/Securing-Blockchain-advanced-configurations-Hyperledger-ebook/dp/B07SV3HZHM/ref=sr_1_1?crid=3INFTYLYSLDZ4&dib=eyJ2IjoiMSJ9.KXbWqUeboIcuUC50Keis4-Fh8EHDdnTKIlRH7zVexmwWKnIxNQakYOF1ZDL1UG4RXGBRVVXn2SDwEJj3M7tyRyZK19Ydlv3imTVHAAJ0ghR-bk3NrV_O0d3YD6oulrUhrVXvGP-iybgR5sFsvQMZiiB-fzveT4bDxFRQ8MLiL8mA-aUjq2t4jWqaUDJuvTaPQW0muj3ND3vEnyNJnkNtsvZvuT6U-HmHCUc2V1vHVuA.g4CBveGSUv1zw91E4tYd6RTJ673DR9z4NTpUq8m8W_k&dib_tag=se&keywords=Securing+Blockchain+Networks+like+Ethereum+and+Hyperledger+Fabric&qid=1713188085&sprefix=securing+blockchain+networks+like+ethereum+and+hyperledger+fabric%2Caps%2C352&sr=8-1)
 
 ## Get to Know the Author
-**Akhil Sharma **
+**Akhil Sharma**
  is the Founder at Armur AI, a cybersecurity company that is backed by Techstars, Outlier Ventures, Aptos and is part of the Google AI startups cloud program.
 Akhil teaches advanced engineering topics (Rust, GO, Blockchain, AI) on his Youtube channel and has mentored more than 200K engineers across platforms like Linkedin Learning, Udemy and Packt.
 Being deeply involved with multiple Rust-based blockchain communities like Aptos, Solana and Polkadot inspired Akhil to write this book.
