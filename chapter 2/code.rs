@@ -25,7 +25,7 @@ fn main() {
 fn main() { 
     let x = 5; 
     println!(“The value of is:{x}”); 
-    let x = 6; 
+    x = 6; 
     println!(“The value of is:{x}”); 
 } 
 
